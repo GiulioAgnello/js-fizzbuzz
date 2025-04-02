@@ -1,14 +1,15 @@
 // informazioni
-const fizz = "fizz";
+const fizz = "Fizz";
 const buzz = "Buzz";
-const fizzBuzz = "FizzBuzz";
+const fizzbuzz = "FizzBuzz";
 
-// esecuzione
+// esecuzione stabiliamo il ciclo e creiamo i multipli per cui far comparire
 
 for (let i = 1; i <= 100; i++) {
-  if (i % 2 === 1) {
-    console.log("fizz");
-  } else if (i % 2 === 0) {
-    console.log("Buzz");
+  if (i % 3 === 0) {
+    console.log(i);
+  } else i % 5 === 0;
+  {
+    console.log(i);
   }
 }
